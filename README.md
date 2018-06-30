@@ -1,2 +1,2 @@
-# learn.py
-Website for learn.py
+# about
+Website for @learn.py

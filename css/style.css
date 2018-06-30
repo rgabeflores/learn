@@ -1,0 +1,184 @@
+/*
+	@author Gabriel Flores
+	@instagram learn.py
+	@personal rgabeflores
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* ============================ */
+/* General HTML Element Styling */
+* {
+	transition: 0.3s;
+	transition-timing-function: ease-out;
+}
+
+html, body{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: column nowrap;
+	width: 100%;
+	background-color: #FEFEFE;
+	color: #222222;
+	font-family: 'Raleway', sans-serif;
+}
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
+	width: 100%;
+	height: 65%;
+	font-size: 1rem;
+}
+section#main-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
+	width: 100%;
+	font-size: 1rem;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
+	width: 100%;
+	font-size: 1rem;
+}
+a, a:visited, a:hover{
+	color: #0099ff;
+	text-decoration: none;
+}
+a:hover{
+	color: #59b29a;
+	/*opacity: 0.65;*/
+}
+h1, h2, h3, h4, h5{
+	font-weight: normal;
+	letter-spacing: 0.25rem;
+}
+/* ============================ */
+
+
+
+
+/* =============== */
+/* Custom Components Styling */
+#header-wrapper, #main-wrapper, #footer-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
+	width: 100%;
+	letter-spacing: 0.25em;
+}
+#header-wrapper > section, #main-wrapper > section, #footer-wrapper > section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 100%;
+	height: auto;
+}
+#header-wrapper > section > div, #main-wrapper > section > div, #footer-wrapper > section > div{
+/*	padding: 0 1em;
+	margin: 0 1em;*/
+}
+
+/* Landing */
+#header-wrapper > section{
+	height: 75%;
+}
+#header-landing{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	height: 75%;
+	max-width: 100%;
+}
+#header-landing > h1{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 100%;
+}
+#main-container{
+	background-color: #FDFDFD;
+}
+
+/* Main Section */
+
+#about{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
+}
+
+#about > p{
+	max-width: 65%;
+	padding: 1em;
+	margin: 1em;
+}
+#latest{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+#latest > ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 100%;
+	list-style-type: none;
+}
+#latest > ul > li{
+	height: 100%
+	padding: 0 0.5em;
+	margin: 0 0.5em;
+}
+
+/* Footer Section */
+#footer-wrapper > section{
+	max-height: 3.5em;
+}
+#footer-wrapper > section > div{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 50%;
+}
+#footer-wrapper > section > div > h4{
+	padding-left: 1em;
+	margin-left: 1em;
+}
+#footer-wrapper > section > div > ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 100%;
+	list-style-type: none;
+}
+#footer-wrapper > section > div > ul > li{
+	padding: 0 0.5em;
+	margin: 0 0.5em;
+}
+
+/* =============== */
+
+
+
+
+/* ===================== */
+/* CSS Animation Effects */
+
+/* ===================== */
