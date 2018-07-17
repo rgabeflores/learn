@@ -125,21 +125,21 @@ h1, h2, h3, h4, h5{
 	padding: 1em;
 	margin: 1em;
 }
-#latest{
+#popular{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
 }
-#latest > ul{
+#popular > ul{
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
+	align-items: flex-start;
 	flex-flow: row wrap;
 	width: 100%;
 	list-style-type: none;
 }
-#latest > ul > li{
+#popular > ul > li{
 	height: 100%
 	padding: 0 0.5em;
 	margin: 0 0.5em;
