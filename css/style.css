@@ -19,6 +19,7 @@ html, body{
 	align-items: center;
 	flex-flow: column nowrap;
 	width: 100%;
+	margin:0;
 	background-color: #FEFEFE;
 	color: #222222;
 	font-family: 'Raleway', sans-serif;
@@ -102,9 +103,9 @@ h1, h2, h3, h4, h5{
 	max-width: 100%;
 	padding-bottom: 5rem;
 	background-color: #FFFFFF;
-	-webkit-box-shadow: inset 0px -5px 5px 0px rgba(0,0,0,0.12);
-	-moz-box-shadow: inset 0px -5px 5px 0px rgba(0,0,0,0.12);
-	box-shadow: inset 0px -5px 5px 0px rgba(0,0,0,0.12);
+	-webkit-box-shadow: inset 0px -10px 15px -10px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 0px -10px 15px -10px rgba(0,0,0,0.3);
+	box-shadow: inset 0px -10px 15px -10px rgba(0,0,0,0.3);
 }
 #header-landing > h1{
 	display: flex;
