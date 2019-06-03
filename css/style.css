@@ -4,6 +4,7 @@
 	@personal rgabeflores
 */
 
+
 /* ============================ */
 /* General HTML Element Styling */
 * {
@@ -83,12 +84,17 @@ h1, h2, h3, h4, h5{
 	width: 100%;
 	height: auto;
 }
-#header-wrapper > section > div, #main-wrapper > section > div, #footer-wrapper > section > div{
-	width: 100%;
+@media only screen and (max-width: 1023px){
+	#header-wrapper > section > div, #main-wrapper > section > div, #footer-wrapper > section > div{
+		width: 100%;
+	}
+
+	#header-wrapper > section > div > img {
+		width: 100%;
+	}
 }
-#header-wrapper > section > div > img {
-	width: 100%;
-}
+
+
 /* Landing */
 #header-wrapper > section{
 	height: 75%;
@@ -149,7 +155,7 @@ h1, h2, h3, h4, h5{
 	list-style-type: none;
 }
 #popular > ul > li{
-	height: 100%
+	height: 100%;
 	padding: 0 0.5em;
 	margin: 0 0.5em;
 }
